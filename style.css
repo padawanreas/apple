@@ -1,0 +1,129 @@
+.navbar{
+  display: flex;
+  margin:30px 200px 0px 200px;
+  position: absolute;
+
+}
+.nav-btn{
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-left: 250px;
+}
+.navbar img{
+  width: 30px;
+  margin:8px 0px 0px -8px;
+}
+.navbar li{
+  list-style: none;
+  margin-right: 40px;
+}
+input{
+  border-radius: 5px;
+  border-style: none;
+  margin-top: -50px;
+}
+.btn-img{
+  border: 1px solid grey;
+  padding: 0px 0px 30px 30px;
+  border-radius:3px 0px 0px 3px;
+  width: 50px;
+  height: 19px;
+  background-image: linear-gradient(darkgrey, dimgrey);
+}
+.btn-img:hover,.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover,.btn6:hover,.btn7:hover,.btn8:hover{
+  background-image: linear-gradient(dimgrey, darkgrey);
+}
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6{
+    border: 1px solid grey;
+    padding: 0px 0px 30px 30px;
+    width: 50px;
+    height: 19px;
+    background-image: linear-gradient(darkgrey, dimgrey);
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.btn7{
+  padding: 0px 0px 20px 20px;
+  border: 1px solid grey;
+  background-image: linear-gradient(darkgrey, dimgrey);
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.btn8{
+  padding: 0px 20px 20px 20px;
+  border: 1px solid grey;
+  background-image: linear-gradient(darkgrey, dimgrey);
+  border-radius:0px 3px 3px 0px;
+}
+.btn8 i{
+  margin-top: -50px;
+}
+.btn8 input{
+  margin-top: 20px;
+}
+.font img{
+  margin:-8px -10px 0px -8px;
+  width: 101.2%;
+}
+.font h1{
+  margin:-350px 0px 0px 400px;
+  font-size: 60px;
+  font-weight: normal;
+  color: white;
+}
+.font h2{
+  margin:10px 0px 0px 50px;
+  font-size: 30px;
+  font-weight: normal;
+  color: white;
+  line-height: 1.5;
+  text-align: center;
+}
+.font h3{
+  margin:10px 0px 0px 40px;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+}
+.font a{
+  text-decoration: none;
+  color: white;
+}
+.font a:hover{
+  text-decoration: underline;
+  color: white;
+}
+.pub{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: -8px;
+}
+.pub img{
+  width: 25.1%;
+  margin-top: 139px;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 40px;
+
+}
+.footer-left p,.footer-right p{
+  color: grey;
+  line-height: 2;
+  font-size: 12px;
+}
+.footer-left a,.footer-right a{
+  text-decoration: none;
+  color: blue;
+}
+.footer-left a:hover,.footer-right a:hover{
+  text-decoration: underline;
+  color:blue;
+}
